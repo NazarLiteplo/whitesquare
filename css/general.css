@@ -212,6 +212,13 @@ background-color: #29c5e6;
 	margin-bottom: 15px;
 	position: relative;
 }
+.box .wrap-cont{
+	margin-bottom: 5px;
+}
+
+.small{
+	font-size: 11px;
+}
 #main-content .box .box-header:before{
 	content: '';
 	display: inline-block;
@@ -254,6 +261,10 @@ background-color: #29c5e6;
 	margin-right: 19px;
 	padding: 1px;
 }
+ .box-content .img-sm{
+ 	padding: 0;
+ 	margin-right: 10px;
+ }
 .box-content img{
 	/*float: left;*/
 	/*margin-right: 19px;*/
@@ -268,11 +279,14 @@ background-color: #29c5e6;
 	overflow: hidden;
 	height: 145px;
 }
+.box .cont .title{
+	text-transform: uppercase;
+	font-weight: bold;	
+}
 .read-more{
 	position: absolute;
 	left: 0px;
-	bottom: 3px;
-	
+	bottom: 3px;	
 }
 .read-more a{
 	color: #525252;
